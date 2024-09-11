@@ -205,7 +205,7 @@ const Scenario = ({id, title, income, filing, adjustment, outcome}) => {
       </div>
       {/**********FOOTER**************/}
       <div className="flex justify-center items-center py-8">
-        <button className="text-white px-4 py-2 bg-[#5D87FF] rounded couser-pointer" onClick={handleNext}>
+        <button className="text-white px-4 py-2 bg-[#5D87FF] rounded-full couser-pointer" onClick={handleNext}>
           { step < 3 ? "Continue" : "View My Results" } 
         </button>
       </div>
