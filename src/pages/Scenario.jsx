@@ -147,11 +147,11 @@ const Scenario = ({id, title, income, filing, adjustment, outcome}) => {
                 <div className="text-3xl font-semibold text-[#FA896B]">Filing Status</div>
               </div>
               <div className="flex flex-col items-center gap-4">
-                <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#FA896B] hover:text-white hover:bg-[#FA896B] rounded-full border-2 border-[#FA896B]">
+                <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#FA896B] hover:text-white hover:bg-[#FA896B] rounded-full border-2 border-[#FA896B]">
                   {filing.label}
                 </button>
                 {filing.label1 != null && 
-                  <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#FFAE1F] hover:text-white hover:bg-[#FFAE1F] rounded-full border-2 border-[#FFAE1F]">
+                  <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#FFAE1F] hover:text-white hover:bg-[#FFAE1F] rounded-full border-2 border-[#FFAE1F]">
                     {filing.label1}
                   </button>
                 }                
@@ -166,11 +166,11 @@ const Scenario = ({id, title, income, filing, adjustment, outcome}) => {
                 <div className="text-3xl font-semibold text-[#FFAD1F]">Adjustments</div>
               </div>
               <div className="flex flex-col items-center gap-4">
-                <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#FFAE1F] hover:text-white hover:bg-[#FFAE1F] rounded-full border-2 border-[#FFAE1F]">
+                <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#FFAE1F] hover:text-white hover:bg-[#FFAE1F] rounded-full border-2 border-[#FFAE1F]">
                   {adjustment.label}
                 </button>
                 {adjustment.label1 != null && 
-                  <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#FA896B] hover:text-white hover:bg-[#FA896B] rounded-full border-2 border-[#FA896B]">
+                  <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#FA896B] hover:text-white hover:bg-[#FA896B] rounded-full border-2 border-[#FA896B]">
                     {adjustment.label1}
                   </button>
                 }                
@@ -185,16 +185,16 @@ const Scenario = ({id, title, income, filing, adjustment, outcome}) => {
                 <div className="text-3xl font-semibold text-[#13DEB9]">Outcome</div>
               </div>
               <div className="flex flex-col items-center gap-4">
-                <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#13DEB9] hover:text-white hover:bg-[#13DEB9] rounded-full border-2 border-[#13DEB9]">
+                <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#13DEB9] hover:text-white hover:bg-[#13DEB9] rounded-full border-2 border-[#13DEB9]">
                   {outcome.primary}
                 </button>
                 {outcome.isMultiple &&
-                  <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#FFAE1F] hover:text-white hover:bg-[#FFAE1F] rounded-full border-2 border-[#FFAE1F]">
+                  <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#FFAE1F] hover:text-white hover:bg-[#FFAE1F] rounded-full border-2 border-[#FFAE1F]">
                     {outcome.secondary}
                   </button>
                 }
                 {outcome.third != null && 
-                  <button className="w-[390px] h-[54px] leading-5 text-center text-md text-[#FA896B] hover:text-white hover:bg-[#FA896B] rounded-full border-2 border-[#FA896B]">
+                  <button className="w-[390px] h-[54px] leading-5 px-6 text-center text-md text-[#FA896B] hover:text-white hover:bg-[#FA896B] rounded-full border-2 border-[#FA896B]">
                     {outcome.third}
                   </button>
                 }                
